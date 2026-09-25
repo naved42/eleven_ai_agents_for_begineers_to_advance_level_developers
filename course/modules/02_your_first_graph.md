@@ -20,6 +20,7 @@ from typing import TypedDict
 class State(TypedDict):
     name: str
     greeting: str
+    shout: str 
 ```
 
 - `TypedDict` is a dict with declared keys and types
@@ -95,7 +96,7 @@ flowchart TD
 - Use this every time a graph misbehaves
 
 > 🎤 Talking points
-> This is the "drawable" promise from Module 01 delivered. Encourage students to draw before *and* after building: if the two pictures differ, the code is wrong.
+> This is the "drawable" promise from Module 01 delivered. Encourage students to draw before *and* after building: if the two pictures differ, the code is wrong. You have to update the class with "shout" : str  in the class State. 
 
 ## Add a second node
 
