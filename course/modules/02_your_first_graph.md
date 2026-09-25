@@ -117,6 +117,7 @@ builder.add_edge("shout", END)   # replace the old greet -> END edge
 ## Now put a model in a node
 
 ```python
+# update the greet node in the class State.
 from langchain_anthropic import ChatAnthropic
 llm = ChatAnthropic(model="claude-sonnet-5")
 
